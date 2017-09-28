@@ -1,0 +1,5 @@
+{
+    "id": "dblivechat",
+    "image": "mongo",
+    "volume": "/data/db"
+}
