@@ -1,5 +1,5 @@
 {
-    "id": "dblivechat",
+    "id": "db",
     "image": "mongo",
     "volume": "/data/db"
 }
