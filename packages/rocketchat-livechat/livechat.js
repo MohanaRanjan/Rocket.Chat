@@ -39,6 +39,7 @@ WebApp.connectHandlers.use('/livechat', Meteor.bindEnvironment((req, res, next) 
 		</head>
 		<body>
 			<script type="text/javascript" src="/livechat/livechat.js?_dc=${ Autoupdate.autoupdateVersion }"></script>
+<div>testtext </div>
 		</body>
 	</html>`;
 
