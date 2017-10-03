@@ -55,6 +55,7 @@ Template.livechatWindow.helpers({
 
 Template.livechatWindow.events({
 	'click .title'() {
+		alert('test is right');
 		parentCall('toggleWindow');
 	},
 	'click .popout'(event) {
