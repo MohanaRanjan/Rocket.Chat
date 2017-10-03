@@ -55,7 +55,7 @@ Template.livechatWindow.helpers({
 
 Template.livechatWindow.events({
 	'click .title'() {
-		alert('test is right');
+
 		parentCall('toggleWindow');
 	},
 	'click .popout'(event) {
@@ -104,7 +104,8 @@ Template.livechatWindow.onCreated(function() {
 				Livechat.offlineSuccessMessage = result.offlineSuccessMessage;
 				Livechat.online = false;
 			} else {
-				Livechat.title = result.title;
+				//Livechat.title = result.title;
+				Livechat.title = 'testtitle';
 				Livechat.onlineColor = result.color;
 				Livechat.online = true;
 				Livechat.transcript = result.transcript;
